@@ -1,0 +1,16 @@
+[Unit]
+Description=waynederryhasnoteeth.co.uk
+After=network.target
+
+[Service]
+Type=simple
+User=www-data
+Group=www-data
+WorkingDirectory=/opt/wayne-derry-has-no-teeth/wayne-dezza
+ExecStart=/bin/bash -c "npm install && npm run build && npm start"
+Restart=always
+RestartSec=5
+Environment=NODE_ENV=production
+
+[Install]
+WantedBy=multi-user.target
