@@ -7,7 +7,7 @@ Type=simple
 User=dezza
 Group=dezza
 WorkingDirectory=/opt/wayne-derry-has-no-teeth/wayne-dezza
-ExecStart=/home/dezza/.nvm/versions/node/v22.20.0/bin/npm start
+ExecStart=/home/dezza/.nvm/versions/node/v22.20.0/bin/node /home/dezza/.nvm/versions/node/v22.20.0/lib/node_modules/npm/bin/npm-cli.js start
 Restart=always
 RestartSec=5
 Environment=NODE_ENV=production
