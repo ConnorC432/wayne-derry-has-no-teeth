@@ -12,7 +12,7 @@ export default function Home() {
 				<meta name="description" content="I Can't Read!"/>
 				<meta property="og:title" content="Wayne Dezza"/>
 				<meta property="og:description" content="I Can't Read!"/>
-				<meta property="og:image" content="/images/waynedezza.jpg"/>
+				<meta property="og:image" content="https://waynederryhasnoteeth.co.uk/images/waynedezza.jpg"/>
 				<meta property="og:type" content="website"/>
 				<meta property="og:url" content="https://waynederryhasnoteeth.co.uk/"/>
 			</Head>
