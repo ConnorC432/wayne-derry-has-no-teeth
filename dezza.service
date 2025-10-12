@@ -7,7 +7,7 @@ Type=simple
 User=dezza
 Group=dezza
 WorkingDirectory=/opt/wayne-derry-has-no-teeth/wayne-dezza
-ExecStart=/bin/bash -c "source /home/dezza/.nvm/nvm.sh && npm install && npm run build && npm start"
+ExecStart=/bin/bash -c "source /home/dezza/.nvm/nvm.sh && npm start"
 Restart=always
 RestartSec=5
 Environment=NODE_ENV=production
