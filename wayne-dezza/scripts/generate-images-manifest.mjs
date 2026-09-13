@@ -9,7 +9,7 @@ const imageFiles = fs
 	.readdirSync(imagesDir)
 	.filter(file => /\.(png|jpe?g|webp|gif)$/i.test(file))
 	.sort((a, b) => a.localeCompare(b))
-	.map(file => `/images/${file}`);
+	.map(file => `images/${file}`);
 
 fs.writeFileSync(outputFile, `${JSON.stringify(imageFiles, null, "\t")}\n`, "utf8");
 
