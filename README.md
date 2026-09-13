@@ -1,1 +1,1 @@
-https://waynederryhasnoteeth.co.uk/
+https://connorc432.github.io/wayne-derry-has-no-teeth/
