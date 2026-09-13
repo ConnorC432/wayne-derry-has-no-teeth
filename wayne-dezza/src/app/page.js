@@ -1,6 +1,5 @@
 import Layout from "../components/layout";
 import Gallery from "../components/gallery";
-import Head from "next/head";
 
 export const metadata = {
 	title: "Wayne Dezza",

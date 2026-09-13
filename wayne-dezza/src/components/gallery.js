@@ -10,7 +10,7 @@ export default function Gallery() {
 	const [selected, setSelected] = useState(null);
 
 	useEffect(() => {
-		fetch("/api/images")
+		fetch("images.json")
 			.then(res => res.json())
 			.then(data => setImages(data))
 			.catch(err => console.error("Failed to load images:", err));
